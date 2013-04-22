@@ -1,9 +1,9 @@
 {
-	"name": "gettext/gettext",
+	"name": "filiptc/gettext",
 	"type": "library",
 	"description": "PHP - JS gettext conversor",
 	"keywords": ["js", "gettext", "i18n", "translation"],
-	"homepage": "https://github.com/oscarotero/Gettext",
+	"homepage": "https://github.com/filiptc/Gettext",
 	"license": "AGPL-3.0",
 	"authors": [
 		{
@@ -20,6 +20,9 @@
 	"require": {
 		"php": ">=5.3.0"
 	},
+    "replace": {
+        "gettext/gettext": "dev-master"
+    },
 	"autoload": {
 		"psr-0": {
 			"Gettext": ""
